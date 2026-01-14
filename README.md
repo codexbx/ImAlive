@@ -28,16 +28,16 @@ docs/
 
 ### GitHub Pages URL 结构
 
-假设你的 GitHub Pages 地址是 `https://username.github.io/ImAlive-Page/`，则访问方式如下：
+GitHub Pages 访问地址：https://codexbx.github.io/ImAlive-Page/
 
 | 页面 | URL | 说明 |
 |------|-----|------|
-| 首页 | `https://username.github.io/ImAlive-Page/` | 自动根据浏览器语言跳转 |
-| 隐私政策（自动跳转） | `https://username.github.io/ImAlive-Page/privacy/` | 自动识别语言并跳转 |
-| 英文隐私政策 | `https://username.github.io/ImAlive-Page/privacy/en/` | 直接访问英文版 |
-| 简体中文隐私政策 | `https://username.github.io/ImAlive-Page/privacy/zh/` | 直接访问简体中文版 |
-| 繁体中文隐私政策 | `https://username.github.io/ImAlive-Page/privacy/zh-tc/` | 直接访问繁体中文版 |
-| 日文隐私政策 | `https://username.github.io/ImAlive-Page/privacy/ja/` | 直接访问日文版 |
+| 首页 | https://codexbx.github.io/ImAlive-Page/ | 自动根据浏览器语言跳转 |
+| 隐私政策（自动跳转） | https://codexbx.github.io/ImAlive-Page/privacy/ | 自动识别语言并跳转 |
+| 英文隐私政策 | https://codexbx.github.io/ImAlive-Page/privacy/en/ | 直接访问英文版 |
+| 简体中文隐私政策 | https://codexbx.github.io/ImAlive-Page/privacy/zh/ | 直接访问简体中文版 |
+| 繁体中文隐私政策 | https://codexbx.github.io/ImAlive-Page/privacy/zh-tc/ | 直接访问繁体中文版 |
+| 日文隐私政策 | https://codexbx.github.io/ImAlive-Page/privacy/ja/ | 直接访问日文版 |
 
 ## ✨ 功能特点
 
@@ -94,10 +94,10 @@ mkdir -p docs/terms/{en,zh,zh-tc,ja}
 
 ```swift
 // iOS Swift 示例
-let privacyURL = "https://username.github.io/ImAlive-Page/privacy/"
+let privacyURL = "https://codexbx.github.io/ImAlive-Page/privacy/"
 
 // Android Kotlin 示例
-val privacyURL = "https://username.github.io/ImAlive-Page/privacy/"
+val privacyURL = "https://codexbx.github.io/ImAlive-Page/privacy/"
 ```
 
 浏览器会自动根据用户的语言设置显示对应版本。
