@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>ImAlive — Language Redirect</title>
+  <script>
+    const supported = ['zh','ja','en'];
+    const lang = (navigator.language || navigator.userLanguage || 'en').split('-')[0];
+    const chosen = supported.includes(lang) ? lang : 'en';
+    location.replace('./' + chosen + '/'); // 跳到 docs/zh/ 或 docs/en/ 等（可以替换为你希望的语言首页）
+  </script>
+</head>
+<body>
+  <p>Redirecting… <a href="./en/">English</a> · <a href="./zh/">中文</a> · <a href="./ja/">日本語</a></p>
+</body>
+</html>
